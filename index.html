@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <h2 id="logo"><a href="/">Holly Abrams</a></h2>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="/#about-me">About</a></li>
+            <li class="navigation-item"><a href="/#projects">Projects</a></li>
+            <li class="navigation-item"><a href="/#skills">Skills</a></li>
+            <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>
+                    I have a passion for web development. It's like solving a puzzle in which the result is something useful (and cool) that can be shared with others. 
+                    </p>
+                    <p>
+                    I spent a few years in construction project accounting, but kept looking for ways to tap into my creative talents. 
+                    </p>
+                    <p>
+                    That's when it happened; I was provided an opportunity to build an internal knowledge base. Web development fulfills my passion for creativity and problem-solving. There's nothing better than developing a website that delivers easily consumable content with responsive functionality.
+                    </p>
+                    <p>
+                    In my free time I like to sketch and work on 3D puzzles. When I'm traveling it's usually to Walt Disney World and Universal Studios, Florida. 
+                    </p>
+                    <p>
+                    Fun fact! I've been programming for <span id="time-container">0</span> seconds!
+                    </p>
+                </div>
+                <img src="/images/IMG_8782.jpeg" alt="Holly Abrams" class="portrait"/>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Memory Game</h3>
+                </summary>
+                <a href="https://hollyabrams.github.io/MemoryGame/" target="_blank" >
+                    <img src="/images/IMG_9318.jpeg" alt="Memory Game" class="project-image"/>
+                </a>
+                <p class="project-description">
+                    This project was completed as part of the Springboard Software Engineering bootcamp and tested JavaScript skills. 
+                </p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Meme Generator</h3>
+                </summary>
+                <a href="https://hollyabrams.github.io/MemeGenerator/" target="_blank" >
+                    <img src="/images/IMG_9319.jpeg" alt="Memory Game" class="project-image"/>
+                </a>
+                <p class="project-description">
+                    This project was completed as part of the Springboard Software Engineering bootcamp and tested JavaScript and DOM manipulation skills. 
+                </p>
+            </details>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <hr>
+            <div id="skills-container">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-chrome"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
